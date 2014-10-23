@@ -106,7 +106,7 @@ class ReactJS {
     try {
       $js = $this->react;
       $js.= sprintf(
-        "React.renderComponentToString(%s(%s), print)",
+        "React.renderComponentToString(%s(%s))",
         $this->component,
         $this->data);
 
